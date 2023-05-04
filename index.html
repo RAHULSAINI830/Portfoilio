@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RADON</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">RADON<span>.</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Service</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hey! I am</h1>
+          <span class="auto">Rahul saini</span><br>
+          <p>
+            I'm studying in Vellore Institute of Technology, Bhopal, with a major in Computer Science Engineering with a specialization in Gaming Technology. I've done a lot of front-end practice Projects, though now I'm mostly focused on the front-end. I especially enjoy working with CSS.</p>
+          <!-- <button>Hire Me</button> -->
+        </div>
+        <div class="main-two">
+          <img src="./images/profile.png" alt="" />
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>Some Things<br /><span>I’ve Built</span></h1>
+        <p>
+          I agree to provide my services freely to the
+          organization, Comida For Familias, Inc., and the organization may offer any assistance and
+          resources to complete my activities.
+
+        </p>
+        <a href="https://drive.google.com/file/d/1_AfRK5QeUJsOIuQV62EffsMf2CgWXxd1/view?usp=drivesdk" target="_blank"><button class="button">Download CV</button></a>
+        <div class="projects-div flex div-1">
+          <img src="./Images/Projects/5.png" alt="" />
+          <h3>Consultant web application</h3>
+          <p>
+            A Consulting website made for clint. It is a freelancing project made using HTML,CSS,Bootstrap,JavaScript, <br> PHP.
+          </p>
+          <a href="https://thexpressviews.com/" target="_blank"><button>Live Preview</button></a>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./Images/Projects/6.png" alt="" />
+          <h3>Hospital website</h3>
+          <p>
+            Practice project on hospital fully responsive website with using Lorem ipsum words.
+          </p>
+          <a href="https://rahulsaini830.github.io/hospital3/" target="_blank"><button>Live Preview</button></a>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./Images/Projects/7.png" alt="" />
+          <h3>Food Ordring web</h3>
+          <p>
+           It is a website for a resturant for mangaing there order or markating online.<br>
+           Made using HTML,CSS,Bootstrap,JavaScript. 
+          </p>
+          <a href="https://rahulsaini830.github.io/newrestro/" target="_blank"><button>Live Preview</button></a>
+        </div>
+        
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Rahul Saini</span>
+          <p>
+            I have been working as a freelance designer and full-stack  developer since 2021. I’ve always been someone who has both a creative and a logical side. When I discovered web design in college, I realized it would be the perfect fit. I could use my creative side to design and my logical side to code. As a bonus, being both designer and developer allows me to make sure that there's no detail is lost in translation
+          </p>
+          <div class="btns">
+            <a href="https://drive.google.com/file/d/1_AfRK5QeUJsOIuQV62EffsMf2CgWXxd1/view?usp=drivesdk"><button>Resume</button></a>
+            <a href="#contact"><button>Contact Me</button></a>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/About/1.png" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <p> I’m currently looking for internship opportunities in my particular domain, my inbox is always open. <br> Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">@</div>
+        <div class="social">
+          <a href="https://instagram.com/wrogn_69?igshid=MTIyMzRjYmRlZg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/rahul-saini-a982301b4" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/RahulSAINI830" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["rahul saini", "Web Developer", ],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
